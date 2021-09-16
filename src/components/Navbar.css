@@ -9,3 +9,10 @@ nav ul li{
     text-decoration: none;
     color: white;
   }
+  .link:hover{
+    color: purple;
+  }
+
+  span{
+    font-size: 1.5rem;
+  }
