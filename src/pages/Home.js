@@ -20,11 +20,11 @@ const Home = () => {
         }}
       >
         <div style={{display:'flex', flexDirection:'column',alignItems:'center', padding:'5px'}}>
-          <div style={{display:'flex', flexDirection:'column',alignItems:'center'}}>
+          <div style={{display:'flex', flexDirection:'column',alignItems:'center',}}>
             <Link to="/html">
               <img src={LogoHtml} alt="html_img" style={{width:'90px', height:'90px' }}/>
             </Link>
-            <h2 style={{ textAlign: "center" }}>Html 5</h2>
+            <h2 style={{ textAlign: "center" ,margin:'20px 0'}}>Html 5</h2>
           </div>
           <p style={{ width: "70%", textAlign: "justify" }}>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
@@ -37,7 +37,7 @@ const Home = () => {
             <Link to="/css">
               <img src={LogoCss} alt="css_img" style={{width:'90px', height:'90px' }} />
             </Link>
-            <h2>Css3 Styling</h2>
+            <h2 style={{ textAlign: "center" ,margin:'20px 0'}}>Css3 Styling</h2>
           </div>
           <p style={{ width: "70%", textAlign: "justify" }}>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et sunt
@@ -50,7 +50,7 @@ const Home = () => {
             <Link to="/logo">
               <img src={LogoBrush} alt="graphic_img" style={{width:'90px', height:'90px' }}/>
             </Link>
-            <h2>Graphic Design</h2>
+            <h2 style={{ textAlign: "center" ,margin:'20px 0'}}>Graphic Design</h2>
           </div>
           <p style={{ width: "70%", textAlign: "justify" }}>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, ea
